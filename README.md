@@ -13,24 +13,24 @@ key to specify this repository location, as follows:
 
     mvn archetype:generate -DarchetypeGroupId=com.truward.maven.archetypes -DarchetypeArtifactId=spring-lib -DarchetypeVersion=1.0 -DgroupId=org.sample -DartifactId=sample-service -Dversion=1.0-SNAPSHOT -DarchetypeRepository=https://github.com/avshabanov/maven-repo/raw/master/libs-release
 
-Simple App:
+### Simple App
 
     mvn archetype:generate -DarchetypeGroupId=com.truward.maven.archetypes -DarchetypeArtifactId=simple-app -DarchetypeVersion=1.0 -DgroupId=org.gnu -DartifactId=oximuron -Dversion=1.0-SNAPSHOT -DarchetypeRepository=https://github.com/avshabanov/maven-repo/raw/master/libs-release
 
 run: mvn exec:java -Dexec.mainClass=org.gnu.App
 
 
-Spring Web App:
+### Spring Web App
 
     mvn archetype:generate -DarchetypeGroupId=com.truward.maven.archetypes -DarchetypeArtifactId=spring-web-app -DarchetypeVersion=1.1 -DgroupId=org.gnu.web -DartifactId=oximuron -Dversion=1.0-SNAPSHOT -DarchetypeRepository=https://github.com/avshabanov/maven-repo/raw/master/libs-release
 
 
-Spring Secured Web App:
+### Spring Secured Web App
 
     mvn archetype:generate -DarchetypeGroupId=com.truward.maven.archetypes -DarchetypeArtifactId=spring-sec-web-app -DarchetypeVersion=1.0 -DgroupId=org.gnu.web -DartifactId=oximuron -Dversion=1.0-SNAPSHOT -DarchetypeRepository=https://github.com/avshabanov/maven-repo/raw/master/libs-release
 
 
-Spring Service:
+### Spring Service
 
     mvn archetype:generate -DarchetypeGroupId=com.truward.maven.archetypes -DarchetypeArtifactId=spring-lib -DarchetypeVersion=1.1 -DgroupId=com.alexshabanov.proxytest -DartifactId=proxy-test -Dversion=1.0-SNAPSHOT -DarchetypeRepository=https://github.com/avshabanov/maven-repo/raw/master/libs-release 
 
