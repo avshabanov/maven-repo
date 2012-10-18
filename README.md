@@ -13,9 +13,13 @@ key to specify this repository location, as follows:
 
     mvn archetype:generate -DarchetypeGroupId=com.truward.maven.archetypes -DarchetypeArtifactId=spring-lib -DarchetypeVersion=1.0 -DgroupId=org.sample -DartifactId=sample-service -Dversion=1.0-SNAPSHOT -DarchetypeRepository=http://truward-java.googlecode.com/svn/trunk/repository
 
+
 ## Repositories location
-RELEASES: https://github.com/avshabanov/maven-repo/tree/master/libs-release
-SNAPSHOTS: https://github.com/avshabanov/maven-repo/tree/master/libs-snapshot
+
+*RELEASES* https://github.com/avshabanov/maven-repo/tree/master/libs-release
+
+*SNAPSHOTS* https://github.com/avshabanov/maven-repo/tree/master/libs-snapshot
+
 
 ## Adding dependecies to pom.xml
 The sample configuration section in the pom.xml may look as follows:
