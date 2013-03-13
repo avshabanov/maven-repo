@@ -2,13 +2,11 @@
 <metadata>
   <groupId>com.alexshabanov.springrestapi</groupId>
   <artifactId>spring-rest-api</artifactId>
-  <version>1.0-ROOT-SNAPSHOT</version>
   <versioning>
+    <release>1.0.3</release>
     <versions>
-      <version>1.0-ROOT-SNAPSHOT</version>
-      <version>1.0.1</version>
-      <version>1.0.2</version>
+      <version>1.0.3</version>
     </versions>
-    <lastUpdated>20130309195803</lastUpdated>
+    <lastUpdated>20130313124032</lastUpdated>
   </versioning>
 </metadata>
