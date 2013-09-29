@@ -1,0 +1,6 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Sat Sep 28 22:04:56 PDT 2013
+spring-mongo-min-0.08-sources.jar>=
+spring-mongo-min-0.08.pom>=
+spring-mongo-min-0.08-javadoc.jar>=
+spring-mongo-min-0.08.jar>=
